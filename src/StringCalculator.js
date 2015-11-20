@@ -1,5 +1,5 @@
-var StringCalculator = function () {
+var StringCalculator = function() {
 
 };
 
-module.export = StringCalculator;
+module.exports = StringCalculator;
