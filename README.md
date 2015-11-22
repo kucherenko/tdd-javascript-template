@@ -1,6 +1,8 @@
 TDD javascript template
 =======================
 
+[![Join the chat at https://gitter.im/kucherenko/tdd-javascript-template](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kucherenko/tdd-javascript-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project is template for traning for TDD with javascript.
 
 Getting started
