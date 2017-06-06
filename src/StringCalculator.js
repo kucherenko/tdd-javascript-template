@@ -1,5 +1,3 @@
-var StringCalculator = function() {
+export class StringCalculator {
 
-};
-
-module.exports = StringCalculator;
+}

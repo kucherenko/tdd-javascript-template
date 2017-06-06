@@ -2,16 +2,16 @@ require('./bootstrap');
 
 var StringCalculator = require('../src/StringCalculator');
 
-describe('String Calculator', function () {
-    var sut;
+describe('String Calculator', () => {
+    let sut;
 
-    beforeEach(function () {
+    beforeEach(() => {
         sut = StringCalculator;
     });
 
-
-    it('should be object', function () {
-        sut.should.be.a('Object');
+    it('should pass test', () => {
+        let a = true;
+        a.should.be.true;
     });
 
 });

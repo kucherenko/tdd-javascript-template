@@ -1,19 +1,21 @@
 {
-    "name": "tdd-project-template",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha test/*.spec.js"
-    },
-    "dependencies": {
-    },
-    "devDependencies": {
-        "mocha": "~1.20.x",
-        "chai": "~1.9.x",
-        "sinon": "~1.10.x",
-        "sinon-chai": "~2.5.x"
-      },
-    "author": "Andrey Kucherenko",
-    "license": "MIT"
+  "name": "tdd-project-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-polyfill --compilers js:babel-register test/*.spec.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.2",
+    "sinon-chai": "^2.10.0"
+  },
+  "author": "Andrey Kucherenko",
+  "license": "MIT"
 }
